@@ -1,0 +1,28 @@
+Lambda syntax
+
+(input arg) -> body
+
+left side is input
+right side is logic
+
+Arrow token is separator
+
+
+Example - (Integer i) ->i*i ;
+
+(String a) -> notify(a)
+
+Concatenate two String;
+
+(String s1,String s2) -> s1+s2;
+
+Square of a number
+(Integer num) -> num*num ;
+
+Complex business logic
+
+(List<Trades> trades) ->{
+persist(trades);
+notify();
+
+}
